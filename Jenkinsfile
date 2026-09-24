@@ -4,7 +4,7 @@ pipeline {
     environment {
         DOCKERHUB_CREDS = credentials('dockerhub-creds')
         IMAGE_NAME = "preethisamy/devops-capstone-app"
-        APP_EC2_IP = "15.252.108.70"
+        APP_EC2_IP = "15.207.100.102"
     }
 
     stages {
