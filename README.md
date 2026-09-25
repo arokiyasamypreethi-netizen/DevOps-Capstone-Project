@@ -79,13 +79,13 @@ A cron job on the App EC2 runs a bash script nightly to back up the application 
 The application is deployed on an AWS EC2 instance and reachable at:
 
 ```
-http://15.207.100.102:3000
+http://13.232.90.30:3000
 ```
 
 Monitoring dashboards:
 ```
-Prometheus: http://15.207.100.102:9090
-Grafana:    http://15.207.100.102:3001
+Prometheus: http://13.232.90.30:9090
+Grafana:    http://13.232.90.30:3001
 ```
 
 > Note: this runs on a free-tier EC2 instance and may be stopped when not in active use. See the project report for screenshots of a successful run.
